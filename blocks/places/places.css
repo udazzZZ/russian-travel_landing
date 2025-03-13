@@ -1,0 +1,11 @@
+.places {
+  padding: 92px 100px 92px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 100%;
+
+  @media (width < 1280px) {
+    padding: 92px 0;
+  }
+}

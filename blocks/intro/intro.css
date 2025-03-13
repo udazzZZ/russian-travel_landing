@@ -1,0 +1,7 @@
+.intro {
+  padding: 92px 394px 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
+}
