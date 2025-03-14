@@ -1,6 +1,9 @@
 .place__description {
-  max-width: 484px;
   display: flex;
   flex-direction: column;
   gap: 26px;
+
+  @media (width < 768px) {
+    padding: 0 16px;
+  }
 }

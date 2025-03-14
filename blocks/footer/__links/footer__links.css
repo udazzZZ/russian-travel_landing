@@ -4,4 +4,9 @@
   display: flex;
   column-gap: 18px;
   list-style: none;
+
+  @media (width < 768px) {
+    flex-direction: column;
+    row-gap: 32px;
+  }
 }

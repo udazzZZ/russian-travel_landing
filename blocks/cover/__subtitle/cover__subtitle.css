@@ -6,4 +6,9 @@
   max-width: 360px;
   text-align: center;
   z-index: 1;
+
+  @media (width < 768px) {
+    font-size: 14px;
+    max-width: 275px;
+  }
 }

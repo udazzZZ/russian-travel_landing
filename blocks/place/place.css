@@ -1,6 +1,21 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: 460px 1fr;
   column-gap: 40px;
   row-gap: 48px;
+
+  @media (width < 1280px) {
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
+  }
+
+  @media (width < 1024px) {
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+  }
+
+  @media (width < 768px) {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
 }

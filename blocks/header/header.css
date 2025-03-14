@@ -1,6 +1,14 @@
 .header {
-	padding-top: 28px;
+	padding: 28px 48px 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
+
+	@media (width < 1024px) {
+		padding: 28px 24px 0;
+	}
+
+	@media (width < 768px) {
+		padding: 16px 16px 0;
+	}
 }

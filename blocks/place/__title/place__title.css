@@ -4,4 +4,13 @@
   font-weight: 900;
   color: #fff;
   max-width: 460px;
+
+  @media (width < 1024px) {
+    font-size: 42px;
+  }
+
+  @media (width < 768px) {
+    font-size: 32px;
+    padding: 0 16px;
+  }
 }

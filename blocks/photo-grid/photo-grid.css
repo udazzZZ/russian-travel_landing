@@ -1,5 +1,5 @@
 .photo-grid {
-  padding-top: 92px;
+  padding: 92px 48px 0;
   width: 100%;
 
   display: grid;
@@ -15,9 +15,11 @@
   @media (width < 1024px) {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+    padding: 88px 24px 0;
   }
 
   @media (width < 768px) {
     grid-template-columns: 1fr;
+    padding: 64px 16px 0;
   }
 }

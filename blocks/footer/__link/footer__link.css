@@ -4,6 +4,10 @@
   font-weight: 400;
   color: #fff;
   transition: opacity 0.3s;
+
+  @media (width < 768px) {
+    font-size: 24px;
+  }
 }
 
 .footer__link:hover {

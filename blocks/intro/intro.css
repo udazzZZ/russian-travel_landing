@@ -1,7 +1,19 @@
 .intro {
-  padding: 92px 394px 0 100px;
+  padding: 92px 442px 0 148px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 40px;
+
+  @media (width < 1280px) {
+    padding: 92px 286px 0 48px;
+  }
+
+  @media (width < 1024px) {
+    padding: 92px 24px 0; 
+  }
+
+  @media (width < 768px) {
+    padding: 64px 16px 0;
+  }
 }

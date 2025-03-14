@@ -4,4 +4,8 @@
 	font-size: 24px;
 	color: #ffffff;
   font-weight: 400;
+
+	@media (width < 768px) {
+		font-size: 18px;
+	}
 }
